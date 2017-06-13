@@ -1,0 +1,14 @@
+﻿<Window x:Class="Cuentame.Vistas.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Iniciar sesión" Height="350" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <Label x:Name="label1" Content="Rut / Correo" HorizontalAlignment="Left" Margin="40,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="RutoEmail" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Height="26" Margin="150,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" TextAlignment="Center" FontSize="14"/>
+        <Label x:Name="label2" Content="Contraseña" HorizontalAlignment="Left" Margin="40,100,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="Pass" HorizontalAlignment="Left" Height="26" Margin="150,100,0,0" VerticalAlignment="Top" Width="190" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="btnInicia" Content="Iniciar sesión" HorizontalAlignment="Center" Margin="152,221,152,60" VerticalAlignment="Center" Width="90" Height="35" Click="btnInicia_Click" IsDefault="True"/>
+        <Label x:Name="label3" Content="thumbs.exe" HorizontalAlignment="Left" Margin="0,288,0,0" VerticalAlignment="Top" FontSize="10"/>
+        <Label x:Name="label4" Content="más información" HorizontalAlignment="Left" Margin="301,288,0,0" VerticalAlignment="Top" FontSize="10" MouseEnter="label4_MouseEnter" MouseLeave="label4_MouseLeave" />
+    </Grid>
+</Window>

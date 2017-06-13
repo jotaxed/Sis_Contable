@@ -1,0 +1,19 @@
+﻿<Window x:Class="Cuentame.Vistas.MenuCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cuentame" Height="400" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True">
+    <Grid>
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_Informes" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <MenuItem Header="_Formulario 24" />
+                <MenuItem Header="_Asientos Contables" />
+                <MenuItem Header="_Formulario Est. de Resultado" />
+                <MenuItem Header="_Formulario de centro de costos" />
+            </MenuItem>
+            <MenuItem Header="_Salir" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <MenuItem Header="_Cerrar sesión" Click="Cierra_sesion"/>
+                <MenuItem Header="_Salir del programa"  Click="Salir"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

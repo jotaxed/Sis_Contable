@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CuentameModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tipo_de_Usuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Rut" Type="varchar" MaxLength="11" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="13" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="Rut" />
+    </Key>
+    <Property Name="Rut" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="70" />
+    <Property Name="Telefono" Type="varchar" MaxLength="12" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="18" />
+  </EntityType>
+  <Association Name="FK_Usuarios_Tipo_de_Usuario">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="0..1" />
+    <End Role="Tipo_de_Usuario" Type="Self.Tipo_de_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="Rut" />
+      </Principal>
+      <Dependent Role="Tipo_de_Usuario">
+        <PropertyRef Name="Rut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CuentameModelStoreContainer">
+    <EntitySet Name="Tipo_de_Usuario" EntityType="Self.Tipo_de_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Usuarios_Tipo_de_Usuario" Association="Self.FK_Usuarios_Tipo_de_Usuario">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Tipo_de_Usuario" EntitySet="Tipo_de_Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
