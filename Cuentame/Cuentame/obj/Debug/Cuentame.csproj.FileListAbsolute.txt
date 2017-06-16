@@ -33,3 +33,24 @@ C:\Users\Kappu\documents\visual studio 2013\Projects\Cuentame\Cuentame\obj\Debug
 C:\Users\Kappu\documents\visual studio 2013\Projects\Cuentame\Cuentame\obj\Debug\Vistas\MenuContador.g.cs
 C:\Users\Kappu\documents\visual studio 2013\Projects\Cuentame\Cuentame\obj\Debug\Vistas\MenuCliente.baml
 C:\Users\Kappu\documents\visual studio 2013\Projects\Cuentame\Cuentame\obj\Debug\Vistas\MenuCliente.g.cs
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\Cuentame.exe.config
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.exe
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.pdb
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\Cuentame.exe
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\Cuentame.pdb
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\Login.baml
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\MenuCliente.baml
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\MenuContador.baml
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\Login.g.cs
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\MenuCliente.g.cs
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Vistas\MenuContador.g.cs
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\App.g.cs
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame_MarkupCompile.cache
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.g.resources
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.Properties.Resources.resources
+C:\Users\Javier\Desktop\Sis_Contable-master\Cuentame\Cuentame\obj\Debug\Cuentame.csproj.GenerateResource.Cache

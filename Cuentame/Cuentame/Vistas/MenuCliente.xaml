@@ -5,7 +5,7 @@
     <Grid>
         <Menu IsMainMenu="True">
             <MenuItem Header="_Informes" HorizontalAlignment="Left" VerticalAlignment="Center">
-                <MenuItem Header="_Formulario 24" />
+                <MenuItem Header="_Formulario 29" />
                 <MenuItem Header="_Asientos Contables" />
                 <MenuItem Header="_Formulario Est. de Resultado" />
                 <MenuItem Header="_Formulario de centro de costos" />
